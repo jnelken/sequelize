@@ -40,5 +40,6 @@ declare const Op: {
   readonly strictRight: unique symbol;
   readonly substring: unique symbol;
   readonly values: unique symbol;
+  readonly match: unique symbol;
 };
 export = Op;
